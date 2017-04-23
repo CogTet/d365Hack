@@ -1,0 +1,12 @@
+C:\Users\BID01023\Documents\Visual Studio 2017\Projects\d365Hack\pixelBattleView\pixelBattleView\pixelBattleView.Core\obj\Debug\pixelBattleView.Core.csprojResolveAssemblyReference.cache
+C:\Users\BID01023\Documents\Visual Studio 2017\Projects\d365Hack\pixelBattleView\pixelBattleView\pixelBattleView.Core\bin\Debug\pixelBattleView.Core.dll
+C:\Users\BID01023\Documents\Visual Studio 2017\Projects\d365Hack\pixelBattleView\pixelBattleView\pixelBattleView.Core\bin\Debug\pixelBattleView.Core.pdb
+C:\Users\BID01023\Documents\Visual Studio 2017\Projects\d365Hack\pixelBattleView\pixelBattleView\pixelBattleView.Core\bin\Debug\Microsoft.Crm.Sdk.Proxy.dll
+C:\Users\BID01023\Documents\Visual Studio 2017\Projects\d365Hack\pixelBattleView\pixelBattleView\pixelBattleView.Core\bin\Debug\Microsoft.IdentityModel.dll
+C:\Users\BID01023\Documents\Visual Studio 2017\Projects\d365Hack\pixelBattleView\pixelBattleView\pixelBattleView.Core\bin\Debug\Microsoft.Xrm.Sdk.dll
+C:\Users\BID01023\Documents\Visual Studio 2017\Projects\d365Hack\pixelBattleView\pixelBattleView\pixelBattleView.Core\bin\Debug\Newtonsoft.Json.dll
+C:\Users\BID01023\Documents\Visual Studio 2017\Projects\d365Hack\pixelBattleView\pixelBattleView\pixelBattleView.Core\bin\Debug\Microsoft.Crm.Sdk.Proxy.xml
+C:\Users\BID01023\Documents\Visual Studio 2017\Projects\d365Hack\pixelBattleView\pixelBattleView\pixelBattleView.Core\bin\Debug\Microsoft.Xrm.Sdk.xml
+C:\Users\BID01023\Documents\Visual Studio 2017\Projects\d365Hack\pixelBattleView\pixelBattleView\pixelBattleView.Core\bin\Debug\Newtonsoft.Json.xml
+C:\Users\BID01023\Documents\Visual Studio 2017\Projects\d365Hack\pixelBattleView\pixelBattleView\pixelBattleView.Core\obj\Debug\pixelBattleView.Core.dll
+C:\Users\BID01023\Documents\Visual Studio 2017\Projects\d365Hack\pixelBattleView\pixelBattleView\pixelBattleView.Core\obj\Debug\pixelBattleView.Core.pdb

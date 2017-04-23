@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26403.7
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pixelBattleView", "pixelBattleView\pixelBattleView.csproj", "{B4F4AAC2-C82A-40FD-8256-914B6EFF92C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pixelBattleView.Core", "pixelBattleView.Core\pixelBattleView.Core.csproj", "{4C4FBCB8-2ADC-4ADD-B103-FC28A8901C21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PseudoInstaller", "PseudoInstaller\PseudoInstaller.csproj", "{2EF8A0FB-25CD-44CE-973E-B2BD864D2E4F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B4F4AAC2-C82A-40FD-8256-914B6EFF92C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4F4AAC2-C82A-40FD-8256-914B6EFF92C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4F4AAC2-C82A-40FD-8256-914B6EFF92C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4F4AAC2-C82A-40FD-8256-914B6EFF92C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C4FBCB8-2ADC-4ADD-B103-FC28A8901C21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C4FBCB8-2ADC-4ADD-B103-FC28A8901C21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C4FBCB8-2ADC-4ADD-B103-FC28A8901C21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C4FBCB8-2ADC-4ADD-B103-FC28A8901C21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EF8A0FB-25CD-44CE-973E-B2BD864D2E4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EF8A0FB-25CD-44CE-973E-B2BD864D2E4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EF8A0FB-25CD-44CE-973E-B2BD864D2E4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EF8A0FB-25CD-44CE-973E-B2BD864D2E4F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
