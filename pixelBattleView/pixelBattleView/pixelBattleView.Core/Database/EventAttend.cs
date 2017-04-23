@@ -10,9 +10,9 @@ namespace pixelBattleView.Core.Database
     public class EventAttend : CrmEntity
     {
         public Event Event => GetForeign<Event>("event");
-        public Contact Contact => GetForeign<Contact>("spieler");
+        public Player Contact => GetForeign<Player>("spieler");
 
-        public EventAttend(Entity entity, IOrganizationService service) : base(entity, service)
+        public EventAttend(RCEntity entity, IOrganizationService service) : base(entity, service)
         {
         }
     }

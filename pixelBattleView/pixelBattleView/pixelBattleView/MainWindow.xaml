@@ -7,6 +7,9 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        
+        <Menu Height="34.541" Margin="10,10,10,0" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch" VerticalAlignment="Top" d:LayoutOverrides="Height, TopMargin, BottomMargin">
+            <Button x:Name="MenuBtn" Content="Back  to Menu" Height="24.214" Width="91.66"/>
+        </Menu>
+
     </Grid>
 </Window>

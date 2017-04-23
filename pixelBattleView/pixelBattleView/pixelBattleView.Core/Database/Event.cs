@@ -14,7 +14,7 @@ namespace pixelBattleView.Core.Database
         public int Duration { get { return (int)entity["rcc_duration"]; } set { entity["rcc_duration"] = value; } }
         public string Name { get { return (string)entity["rcc_name"]; } set { entity["rcc_name"] = value; } }
 
-        public Event(Entity entity, IOrganizationService service) : base(entity, service)
+        public Event(RCEntity entity, IOrganizationService service) : base(entity, service)
         {
 
         }

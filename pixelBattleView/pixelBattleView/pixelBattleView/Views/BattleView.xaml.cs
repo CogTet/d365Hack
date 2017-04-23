@@ -23,17 +23,28 @@ namespace pixelBattleView.Views
     public partial class BattleView : Page
     {
         private TournementPairing tournementPairing;
-        
+        private CRM crm;
+        private LeagueAttend attend;
 
-        public BattleView(TournementPairing tournementPairing)
+        public BattleView(CRM crm)
         {
             InitializeComponent();
-            this.tournementPairing = tournementPairing;
+            this.crm = crm;
 
-            PlayerOneName.Text = tournementPairing.Attend1.EventAttend.Contact.Name;
-            PlayerTwoName.Text = tournementPairing.Attend2.EventAttend.Contact.Name;
-            LeagueName.Text = tournementPairing.Attend1.League.Name;
-            EventLable.Text = tournementPairing.Attend1.League.Event.Name;
+            GetTounement();
+
+            PlayerOneName.Text = tournementPairing?.Attend1.EventAttend.Contact.Name;
+            PlayerTwoName.Text = tournementPairing?.Attend2.EventAttend.Contact.Name;
+            LeagueName.Text = attend?.League.Name;
+            EventLable.Text = attend?.League.Event.Name;
+            
+
+        }
+
+        private void GetTounement()
+        {
+            attend = crm.GetLeagueAttends().Where(l => l.Status == GameStatus.Pending).FirstOrDefault();
+            tournementPairing = crm.GetTournemtPairings().Where(t => t.Attend1.Status == GameStatus.Pending || t.Attend2.Status == GameStatus.Pending).FirstOrDefault();
 
         }
     }

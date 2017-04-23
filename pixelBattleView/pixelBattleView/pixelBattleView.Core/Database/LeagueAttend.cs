@@ -12,8 +12,9 @@ namespace pixelBattleView.Core.Database
     {
         public League League => GetForeign<League>("league");
         public EventAttend EventAttend => GetForeign<EventAttend>("eventattent");
+        public GameStatus Status { get { return (GameStatus)((OptionSetValue)entity["statuscode"]).Value; } set { entity["statuscode"] = (int)value; } }
 
-        public LeagueAttend(Entity entity, IOrganizationService service) : base(entity, service)
+        public LeagueAttend(RCEntity entity, IOrganizationService service) : base(entity, service)
         {
         }
 

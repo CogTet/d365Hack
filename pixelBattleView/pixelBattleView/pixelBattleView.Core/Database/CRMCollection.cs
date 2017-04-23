@@ -15,7 +15,7 @@ namespace pixelBattleView.Core.Database
             this.service = service;
 
             foreach (var item in entity)
-                Add((T)Activator.CreateInstance(typeof(T), item, service));
+                Add((T)Activator.CreateInstance(typeof(T), new RCEntity(item), service));
 
         }
     }

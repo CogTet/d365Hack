@@ -32,20 +32,11 @@ namespace pixelBattleView
         private bool played;
         private MediaElement Korobeiniki;
         private Configuration configuration;
-        private Timer timer;
-        private MenuState menuState;
 
         public MainWindow()
         {
             InitializeComponent();
-
-            timer = new Timer();
-            timer.Interval = 10000;
-
-            timer.Elapsed += (s, e) =>
-            {
-                GetActualGame();
-            };
+                       
 
             Content = new MenuPage();
 
@@ -54,14 +45,16 @@ namespace pixelBattleView
             crm.Authenticate();
 
             ToMenu();
+
         }
 
         private void ToMenu()
         {
             var menu = new MenuPage();
             menu.FunButtonClicked += Menu_FunButtonClicked;
-            menu.GameButtonClicked += (s, e) => Content = new GameView(crm.GetGames().FirstOrDefault());
-            menu.BattleButtonClicked += (s, e) => Content = new BattleView(crm.GetTournemtPairings().FirstOrDefault());
+            menu.GameButtonClicked += (s, e) => Content = new GameView(crm);
+            menu.BattleButtonClicked += (s, e) => Content = new BattleView(crm);
+            MenuBtn.Click += (s, e) => ToMenu();
             Content = menu;
         }
 
@@ -90,19 +83,7 @@ namespace pixelBattleView
             }
         }
 
-        private void GetActualGame()
-        {
-            if (menuState != MenuState.Game)
-                return;
-
-            var games = crm.GetGames();
-            var game = games.FirstOrDefault(g => g.Status == GameStatus.Pending);
-
-            if (game == null)
-                game = games.OrderByDescending(g => g.ModifiedOn).FirstOrDefault();
-            
-            Content = new GameView(game);
-        }
+       
 
     }
 }

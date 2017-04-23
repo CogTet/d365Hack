@@ -9,9 +9,31 @@
       Title="GameView">
 
     <Grid>
-        <TextBlock x:Name="EventName" HorizontalAlignment="Left" Height="17.096" TextWrapping="Wrap" Text="EVENT" VerticalAlignment="Top" Width="57.353"/>
-        <TextBlock x:Name="LeaugueName" HorizontalAlignment="Left" Height="16.544" Margin="44.118,0.552,0,0" TextWrapping="Wrap" Text="LEUGUE" VerticalAlignment="Top" Width="63.971"/>
-        <TextBlock x:Name="Points" HorizontalAlignment="Left" Height="21.508" Margin="44.118,108.088,0,0" TextWrapping="Wrap" Text="POINTS" VerticalAlignment="Top" Width="63.971"/>
+        <TextBlock Height="17.058" TextWrapping="Wrap" Text="Der Aktueller Spieler" VerticalAlignment="Top" Margin="6.618,5.516,0,0" HorizontalAlignment="Left" Width="142.831" FontWeight="Bold" FontSize="14"/>
+
+        <ListView x:Name="HighScoreList" Margin="0,10,10,10" VerticalContentAlignment="Stretch" HorizontalAlignment="Right" Width="125.661" Background="#00000000">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <Grid Margin="10,27.574,150.551,15.991">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="19*"/>
+                <RowDefinition Height="27*"/>
+            </Grid.RowDefinitions>
+            <Grid Margin="0,0,10,-40.367">
+                <Image x:Name="UserImage" Height="79.375" VerticalAlignment="Top" HorizontalAlignment="Left" Width="78.713" Margin="10,0,0,0"/>
+                <Grid Margin="10,84.375,0,11.139">
+                    <TextBlock x:Name="PlayerName" TextWrapping="Wrap" Text="PLAYER" Height="25.919" VerticalAlignment="Top" d:LayoutOverrides="Width"/>
+                    <TextBlock x:Name="PlayerTwitter" TextWrapping="Wrap" Text="@PLAYER" Margin="0,30.919,0,0" Height="25.919" VerticalAlignment="Top"/>
+
+                </Grid>
+
+            </Grid>
+
+        </Grid>
 
     </Grid>
 </Page>

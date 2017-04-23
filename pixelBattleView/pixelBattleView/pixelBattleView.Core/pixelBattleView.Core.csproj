@@ -43,6 +43,7 @@
     <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>..\packages\Newtonsoft.Json.10.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
+    <Reference Include="PresentationCore" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.DirectoryServices" />
@@ -59,10 +60,11 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CRM.cs" />
-    <Compile Include="Database\Contact.cs" />
+    <Compile Include="Database\Player.cs" />
     <Compile Include="Database\CRMCollection.cs" />
     <Compile Include="Database\CrmEntity.cs" />
     <Compile Include="Database\Event.cs" />
@@ -71,6 +73,7 @@
     <Compile Include="Database\GameStatus.cs" />
     <Compile Include="Database\League.cs" />
     <Compile Include="Database\LeagueAttend.cs" />
+    <Compile Include="Database\RCEntity.cs" />
     <Compile Include="Database\TournementPairing.cs" />
     <Compile Include="JSON\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

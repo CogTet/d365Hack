@@ -9,10 +9,9 @@
       Title="BattleView">
 
     <Grid>
-        <TextBlock x:Name="EventLable" Margin="10,10,232.721,270.772" TextWrapping="Wrap" Text="EVENT"/>
         <Grid Margin="10,121.324,10,160.478">
 
-            <Grid Margin="0,0,150.905,0">
+            <Grid Margin="0,0,150.905,0" HorizontalAlignment="Left">
 
 
                 <TextBlock  x:Name="PlayerOneName" Margin="0,0.099,62.095,0.099" TextWrapping="Wrap" Text="PLAYER 1" Width="67" Height="18" HorizontalAlignment="Left" d:LayoutOverrides="Width"/>
@@ -21,7 +20,7 @@
             </Grid>
 
             <TextBlock x:Name="Dots" TextWrapping="Wrap" Text="vs" Margin="134.095,0.55,132.927,-0.352" RenderTransformOrigin="0.394,0.463" Height="18" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-            <Grid Margin="152.073,0,0,0">
+            <Grid Margin="152.073,0,0,0" HorizontalAlignment="Right">
 
                 <TextBlock x:Name="PlayerTwoPoints" TextWrapping="Wrap" Text="PLAYER 2" Height="18" Margin="0,0.099,72.927,0.099" HorizontalAlignment="Left"/>
                 <TextBlock x:Name="PlayerTwoName" Margin="60.662,0,0,0.55" TextWrapping="Wrap" Text="PLAYER 2" Height="18" Width="67" HorizontalAlignment="Right"/>
@@ -29,7 +28,11 @@
             </Grid>
 
         </Grid>
-        <TextBlock x:Name="LeagueName" Height="19.228" Margin="67.279,10,146.14,0" TextWrapping="Wrap" Text="LEAGUE" VerticalAlignment="Top"/>
+        <Grid Height="19.228" Margin="10,10,125.64,0" VerticalAlignment="Top">
+            <TextBlock x:Name="EventLable" Margin="0,0,107.081,0" TextWrapping="Wrap" Text="EVENT" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+            <TextBlock x:Name="LeagueName" Margin="77.779,0,0,0" TextWrapping="Wrap" Text="LEAGUE" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+
+        </Grid>
 
     </Grid>
 </Page>

@@ -10,10 +10,10 @@ namespace pixelBattleView.Core.Database
 {
     public abstract class CrmEntity
     {
-        protected Entity entity;
+        protected RCEntity entity;
         protected IOrganizationService service;
 
-        public CrmEntity(Entity entity, IOrganizationService service)
+        public CrmEntity(RCEntity entity, IOrganizationService service)
         {
             this.entity = entity;
             this.service = service;
@@ -26,5 +26,7 @@ namespace pixelBattleView.Core.Database
             var ent = service.Retrieve(leagueRef.LogicalName, leagueRef.Id, new ColumnSet(true));
             return (T)Activator.CreateInstance(typeof(T), ent, service);
         }
+
+        public override string ToString() => $"{entity.Entity.LogicalName}";
     }
 }

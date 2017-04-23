@@ -1,0 +1,12 @@
+C:\Users\BID01023\Documents\Visual Studio 2017\Projects\d365Hack\pixelBattleView\pixelBattleView\PseudoInstaller\bin\Release\PseudoInstaller.exe.config
+C:\Users\BID01023\Documents\Visual Studio 2017\Projects\d365Hack\pixelBattleView\pixelBattleView\PseudoInstaller\bin\Release\PseudoInstaller.exe
+C:\Users\BID01023\Documents\Visual Studio 2017\Projects\d365Hack\pixelBattleView\pixelBattleView\PseudoInstaller\bin\Release\PseudoInstaller.pdb
+C:\Users\BID01023\Documents\Visual Studio 2017\Projects\d365Hack\pixelBattleView\pixelBattleView\PseudoInstaller\bin\Release\pixelBattleView.Core.dll
+C:\Users\BID01023\Documents\Visual Studio 2017\Projects\d365Hack\pixelBattleView\pixelBattleView\PseudoInstaller\bin\Release\Microsoft.Xrm.Sdk.dll
+C:\Users\BID01023\Documents\Visual Studio 2017\Projects\d365Hack\pixelBattleView\pixelBattleView\PseudoInstaller\bin\Release\Newtonsoft.Json.dll
+C:\Users\BID01023\Documents\Visual Studio 2017\Projects\d365Hack\pixelBattleView\pixelBattleView\PseudoInstaller\bin\Release\pixelBattleView.Core.pdb
+C:\Users\BID01023\Documents\Visual Studio 2017\Projects\d365Hack\pixelBattleView\pixelBattleView\PseudoInstaller\bin\Release\Microsoft.Xrm.Sdk.xml
+C:\Users\BID01023\Documents\Visual Studio 2017\Projects\d365Hack\pixelBattleView\pixelBattleView\PseudoInstaller\bin\Release\Newtonsoft.Json.xml
+C:\Users\BID01023\Documents\Visual Studio 2017\Projects\d365Hack\pixelBattleView\pixelBattleView\PseudoInstaller\obj\Release\PseudoInstaller.csprojResolveAssemblyReference.cache
+C:\Users\BID01023\Documents\Visual Studio 2017\Projects\d365Hack\pixelBattleView\pixelBattleView\PseudoInstaller\obj\Release\PseudoInstaller.exe
+C:\Users\BID01023\Documents\Visual Studio 2017\Projects\d365Hack\pixelBattleView\pixelBattleView\PseudoInstaller\obj\Release\PseudoInstaller.pdb

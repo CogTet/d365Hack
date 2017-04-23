@@ -18,7 +18,7 @@ namespace pixelBattleView.Core.Database
         public int Modus { get { return ((OptionSetValue)entity["rcc_modus"]).Value; } set { entity["rcc_modus"] = value; } }
 
 
-        public League(Entity entity, IOrganizationService service) : base(entity, service)
+        public League(RCEntity entity, IOrganizationService service) : base(entity, service)
         {
 
         }

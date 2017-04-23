@@ -15,7 +15,7 @@ namespace pixelBattleView.Core.Database
         public int Index { get { return (int)entity["rcc_index"]; } set { entity["rcc_index"] = value; } }
 
 
-        public TournementPairing(Entity entity, IOrganizationService service) : base(entity, service)
+        public TournementPairing(RCEntity entity, IOrganizationService service) : base(entity, service)
         {
         }
     }

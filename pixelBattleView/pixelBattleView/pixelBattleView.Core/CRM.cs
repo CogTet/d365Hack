@@ -45,13 +45,13 @@ namespace pixelBattleView.Core
 
         public CRMCollection<League> GetLeagues()=> new CRMCollection<League>(GetData("rcc", "league"), Service);
 
-        public CRMCollection<LeagueAttend> GetLeagueAttends() => new CRMCollection<LeagueAttend>(GetData("rcc", "leagueattend"), Service);
+        public CRMCollection<LeagueAttend> GetLeagueAttends() => new CRMCollection<LeagueAttend>(GetData("rcc", "leagueattent"), Service);
 
         public CRMCollection<Game> GetGames() => new CRMCollection<Game>(GetData("rcc", "ergebnis"), Service);
 
         public CRMCollection<TournementPairing> GetTournemtPairings() => new CRMCollection<TournementPairing>(GetData("rcc", "tournamentpairings"), Service);
 
-        public CRMCollection<Contact> GetContacts() => new CRMCollection<Contact>( GetData("contact"), Service);
+        public CRMCollection<Player> GetContacts() => new CRMCollection<Player>( GetData("contact"), Service);
 
         private DataCollection<Entity> GetData(string entityName)
         {
@@ -74,6 +74,7 @@ namespace pixelBattleView.Core
 
             var leagueAttendents = Service.RetrieveMultiple(query);
             return leagueAttendents.Entities;
+           
         }
 
     }
